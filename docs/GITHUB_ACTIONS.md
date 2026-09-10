@@ -20,7 +20,7 @@ Android Studio, no local Gradle, no local JDK required on your machine.
 3. Drag the *contents* of the unzipped `ArrowZen` folder in (not the folder
    itself — the `app/`, `gradle/`, `.github/` etc. folders should sit at the
    repository root, not nested one level down).
-4. Commit directly to `main`.
+4. Commit directly to `master`.
 
    GitHub's web uploader can be slow/unreliable with many small files (this
    project has ~90). If it stalls or errors partway through, use Option B.
@@ -32,15 +32,15 @@ cd ArrowZen
 git init
 git add .
 git commit -m "Initial commit"
-git branch -M main
+git branch -M master
 git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
-git push -u origin main
+git push -u origin master
 ```
 
 ## 3. Run the build
 
 The workflow at `.github/workflows/android-build.yml` is already configured
-to run automatically on every push to `main` — so simply completing step 2
+to run automatically on every push to `master` — so simply completing step 2
 starts the first build. To trigger it manually instead (or again later):
 
 1. Open your repository on GitHub.
