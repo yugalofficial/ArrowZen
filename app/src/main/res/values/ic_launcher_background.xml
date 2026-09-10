@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sampled from the arrowzen app icon's own background so the adaptive
+         icon's padding (outside the 66% safe-zone content) reads as one
+         continuous navy field under every launcher mask shape, instead of
+         a visible box-within-a-box. -->
+    <color name="ic_launcher_background">#070B22</color>
+</resources>

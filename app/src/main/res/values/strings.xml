@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ArrowZen</string>
+    <string name="app_full_name">ArrowZen: Logic Escape</string>
+    <string name="app_tagline">Tap. Think. Escape.</string>
+    <string name="developer_credit">Designed &amp; Developed by Yugal</string>
+    <string name="copyright_notice">© 2026 Yugal</string>
+
+    <string name="cd_arrow_tile">Arrow tile, tap to attempt escape</string>
+    <string name="cd_undo_button">Undo last move</string>
+    <string name="cd_hint_button">Show a hint</string>
+    <string name="cd_restart_button">Restart level</string>
+    <string name="cd_back_button">Go back</string>
+    <string name="cd_settings_button">Open settings</string>
+
+    <string name="home_play">PLAY</string>
+    <string name="home_continue">Continue Level %1$d</string>
+    <string name="home_daily_challenge">Daily Arrow</string>
+    <string name="home_streak">%1$d Day Streak</string>
+    <string name="nav_classic">Classic</string>
+    <string name="nav_daily">Daily</string>
+    <string name="nav_zen">Zen</string>
+    <string name="nav_challenge">Challenge</string>
+    <string name="nav_stats">Statistics</string>
+    <string name="nav_achievements">Achievements</string>
+    <string name="nav_settings">Settings</string>
+</resources>
